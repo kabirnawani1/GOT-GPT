@@ -3,8 +3,6 @@ import torch
 import json
 import re
 from google.cloud import storage
-from google.cloud import vision
-#from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.schema.document import Document
 from langchain import HuggingFacePipeline, PromptTemplate
 from langchain.chains import RetrievalQA
